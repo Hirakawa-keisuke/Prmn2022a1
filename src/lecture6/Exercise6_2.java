@@ -1,6 +1,7 @@
 package lecture6;
 
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -20,6 +21,10 @@ public class Exercise6_2 {
         }catch (IndexOutOfBoundsException e){
             System.out.println("ArrayListの範囲外アクセスを確認しました.");
             System.out.println("プログラムを終了します.");
+        }// 課題3
+         catch (InputMismatchException e){
+            System.out.println("整数以外の値が入力されました。");
+            System.out.println("プログラムを終了します。");
         }
     }
 }
