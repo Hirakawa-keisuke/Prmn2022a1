@@ -12,6 +12,5 @@ public class Exercise6_1 {
         }catch (Exception e){
             System.out.println("エラー.");
         }
-
     }
 }
